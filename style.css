@@ -1,0 +1,52 @@
+:root{
+    --color-p: rgb(8, 9, 10);
+    --color-s: rgb(244, 247, 245);
+    --color-a: rgb(237, 255, 76);
+
+}
+
+
+* {
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+}
+
+  .title-font {
+    font-family: "Orbitron", sans-serif;
+  }
+
+body{
+    background-color: var(--color-p);
+}
+
+
+  /* HEADER  */
+    .title{
+        color: var(--color-s);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-49%, -50%);
+        z-index: 2;
+        font-size: calc(15px + 10vw);
+        letter-spacing: 6vw;
+        text-align: center;
+        padding-left: 6vw;
+        text-shadow: 2px 2px 5px var(--color-p);
+    }
+
+    .slide-1{
+        background: linear-gradient(var(--color-p), rgba(0, 0, 0, 0.3), var(--color-p)), url(./media/ai-7977960_1920.jpg);
+    }
+    .slide-2{
+        background: linear-gradient(var(--color-p), rgba(0, 0, 0, 0.285), var(--color-p)), url(./media/ai-generated-8540921_1920.jpg);
+    }
+    .slide-3{
+        background: linear-gradient(var(--color-p), rgba(0, 0, 0, 0.305), var(--color-p)), url(./media/laptop-5673901_1920.jpg);
+    }
+    .slide-1, .slide-2, .slide-3 {
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
